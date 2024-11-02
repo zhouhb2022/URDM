@@ -3,10 +3,10 @@
 
 
 The standard diffusion process can be represented as:
-$$
+```math
 q(\mathbf{x}_ t | \mathbf{x}_ {t-1}) = \mathcal{N}(\mathbf{x}_ t; \sqrt{1 - \beta_t} \mathbf{x}_ {t-1}, \beta_t \mathbf{I}) 
 \tag{1}
-$$
+```
 where $\beta_t$ is the noise intensity at time step $t$, and $x_t$ is the noisy image at time $t$, where $\beta_t$ is a hyperparameter, and satisfies $0 < \beta_t <1 $ and $\beta_1 < \beta_2 < ...<\beta_{t-1} < \beta_t $. 
 
 
