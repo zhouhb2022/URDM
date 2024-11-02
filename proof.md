@@ -1,3 +1,4 @@
+
 ##### This document will demonstrate why fine-tuning diffusion at random time steps is feasible and robust in \< Universal Rumor Detection Method on Modality Consistency and External Knowledge \>.
 
 
@@ -7,7 +8,7 @@ $$
 q(\mathbf{x}_t | \mathbf{x}_{t-1}) = \mathcal{N}(\mathbf{x}_t; \sqrt{1 - \beta_t} \mathbf{x}_{t-1}, \beta_t \mathbf{I}) 
 \tag{1}
 $$
-where $\beta_t$ is the noise intensity at time step $t$, and $x_t$ is the noisy image at time $t$, where $\beta_t$ is a hyperparameter, and satisfies $0 < \beta_t <1 $ and $\beta_1 < \beta_2 < ...<\beta_{t-1} < \beta_t $. 
+where $\beta_t$ is the noise intensity at time step $t$, and $x_t$ is the noisy image at time $t$, where $\beta_t$ is a hyperparameter, and satisfies 0 \< $\beta_t$ <1  and $\beta_1$ \< $\beta_2$ \< ...\< $\beta_{t-1}$ \< $\beta_t$. 
 
 
 If we want to sample a $z$ from a Gaussian distribution $z \sim \mathcal{N}(z; \mu_\theta, \sigma^{2}_\theta \mathbf{I})$, we can write it as follow:
@@ -18,7 +19,7 @@ z = \mu_\theta+\sigma_\theta \epsilon, \epsilon \sim \mathcal{N}(0,  \mathbf{I})
 $$
 
 The forward diffusion can be represented in terms of images as:
-![alt text](image.png)
+![外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传](https://img-home.csdnimg.cn/images/20230724024159.png?origin_url=image.png&pos_id=img-spmY8FGl-1730553814119)
 
 
 Based on the above information, we can conclude that:
