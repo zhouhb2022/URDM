@@ -19,8 +19,7 @@ z = \mu_\theta+\sigma_\theta \epsilon, \epsilon \sim \mathcal{N}(0,  \mathbf{I})
 $$
 
 The forward diffusion can be represented in terms of images as:
-![外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传](https://img-home.csdnimg.cn/images/20230724024159.png?origin_url=image.png&pos_id=img-spmY8FGl-1730553814119)
-
+![alt text](image.png)
 
 Based on the above information, we can conclude that:
 $$
