@@ -1,4 +1,4 @@
-﻿##### This document will demonstrate why fine-tuning diffusion at random time steps is feasible and robust in \< Universal Rumor Detection Method on Modality Consistency and External Knowledge \>.
+﻿##### This document will demonstrate why fine-tuning diffusion at random time steps is feasible and robust in Universal Rumor Detection Method on Modality Consistency and External Knowledge.
 
 
 
